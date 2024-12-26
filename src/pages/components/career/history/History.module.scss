@@ -1,0 +1,38 @@
+.history {
+  @include flex(center);
+  flex: 3;
+
+  height: 100%;
+
+  border-right: 1px solid #000;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0 20px 20px;
+
+    &__job {
+      transition: all 0.1s linear;
+
+      cursor: pointer;
+
+      h2 {
+        font-weight: 600;
+      }
+      h3 {
+        font-weight: 500;
+      }
+      h4 {
+        padding: 3px 0;
+      }
+    }
+    .active {
+      color: rgb(56, 124, 226);
+    }
+  }
+}
