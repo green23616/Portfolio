@@ -6,12 +6,12 @@ import Skills from './skills/Skills';
 
 function About() {
   return (
-    <div className={styles.about}>
+    <main className={styles.about}>
       <div className={styles.container}>
         <Profile />
         <Skills />
       </div>
-    </div>
+    </main>
   );
 }
 

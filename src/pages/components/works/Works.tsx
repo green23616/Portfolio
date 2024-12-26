@@ -1,7 +1,7 @@
 import styles from './Works.module.scss';
 
 function Works() {
-  return <div className={styles.works}>Works</div>;
+  return <main className={styles.works}>Works</main>;
 }
 
 export default Works;

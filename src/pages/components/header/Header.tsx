@@ -2,7 +2,7 @@ import styles from './Header.module.scss';
 
 function Header() {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.container__size}>
           <p className={`${'material-symbols-outlined'}`}>monitor</p>
@@ -17,7 +17,7 @@ function Header() {
           <p className={`${'material-symbols-outlined'}`}>public</p>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

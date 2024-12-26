@@ -28,6 +28,7 @@
 
 **Main Component**
 
+- Header
 - About
   - Profile
   - Skills
@@ -40,5 +41,6 @@
 - Darmode
 - Up
 - Divider
+- Footer
 
 ## 개발이슈

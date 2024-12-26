@@ -6,6 +6,7 @@ import Career from './components/career/Career';
 import Works from './components/works/Works';
 import Divider from '../components/divider/Divider';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 function Main() {
   return (
@@ -20,6 +21,7 @@ function Main() {
           않았음을 약속합니다"
         />
         <Works />
+        <Footer />
       </div>
     </div>
   );
