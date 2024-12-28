@@ -5,24 +5,7 @@
   flex: 2;
   height: 100%;
 
-  &__tags {
-    display: flex;
-    justify-content: space-around;
-
-    margin-bottom: 20px;
-
-    &__item {
-      padding: 5px 8px;
-
-      border: 1px solid #c7c7c7;
-      border-radius: 5px;
-
-      cursor: pointer;
-    }
-  }
-
   &__imageBox {
-    @include flex(center);
     flex: 1;
 
     img {
@@ -30,17 +13,15 @@
 
       border-radius: 20px;
 
-      border: 1px solid #000;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 
       cursor: pointer;
     }
   }
 
   &__commentBox {
-    text-align: center;
-    flex: 1;
-
     display: flex;
+    flex: 1;
     flex-direction: column;
 
     font-weight: 400;
@@ -53,7 +34,7 @@
       padding: 20px 0;
     }
     h3 {
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 400;
 
       padding: 4px 0;
@@ -67,6 +48,23 @@
       color: #2557fa;
 
       font-weight: 800;
+    }
+  }
+
+  &__tags {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 20px;
+
+    &__item {
+      padding: 5px 8px;
+
+      border-radius: 6px;
+
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+      cursor: pointer;
     }
   }
 }

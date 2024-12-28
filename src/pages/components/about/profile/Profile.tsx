@@ -4,13 +4,13 @@ import styles from './Profile.module.scss';
 function Profile() {
   return (
     <div className={styles.profile}>
+      <div className={styles.profile__imageBox}>
+        <img src="src/assets/images/jw1.jpg" alt="img1" />
+      </div>
       <div className={styles.profile__tags}>
         <p className={styles.profile__tags__item}>#업무</p>
         <p className={styles.profile__tags__item}>#일상</p>
         <p className={styles.profile__tags__item}>#취미</p>
-      </div>
-      <div className={styles.profile__imageBox}>
-        <img src="src/assets/images/jw1.jpg" alt="img1" />
       </div>
       <div className={styles.profile__commentBox}>
         <h1>
@@ -19,8 +19,8 @@ function Profile() {
           <br />
           가장 큰 가치로 생각합니다
         </h1>
-        <h3>과정을 알고 결과에 다가가고 싶습니다</h3>
-        <h3>남을 설득할 전문성을 갖추고 싶습니다</h3>
+        <h3>과정을 생각하며 결과에 다가가고 싶습니다</h3>
+        <h3>타인을 설득할 전문성을 갖추고 싶습니다</h3>
         <h3>소중한 동료와 웃으며 일하고 싶습니다</h3>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 // CSS
 import styles from './History.module.scss';
 // Recoil
@@ -12,14 +11,14 @@ function History() {
     setStyleVal(number);
   };
 
-  useEffect(() => {
-    const setTimer = setTimeout(() => {
-      setStyleVal(prev => (prev > 2 ? 0 : prev + 1));
-    }, 2000);
-    return () => {
-      clearTimeout(setTimer);
-    };
-  }, [styleVal, setStyleVal]);
+  // useEffect(() => {
+  //   const setTimer = setTimeout(() => {
+  //     setStyleVal(prev => (prev > 2 ? 0 : prev + 1));
+  //   }, 2000);
+  //   return () => {
+  //     clearTimeout(setTimer);
+  //   };
+  // }, [styleVal, setStyleVal]);
 
   return (
     <div className={styles.history}>
@@ -63,7 +62,7 @@ function History() {
           onMouseEnter={() => handleMouseOver(3)}
         >
           <h2>2024.08 - 2024.12</h2>
-          <h3>Projects</h3>
+          <h4>기본기 학습</h4>
         </div>
       </div>
     </div>
