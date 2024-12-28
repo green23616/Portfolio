@@ -1,37 +1,54 @@
 import styles from './Skills.module.scss';
-import skills from './item.json';
 
 function Skills() {
-  const above = skills.above;
-  const below = skills.below;
-
   return (
     <div className={styles.skills}>
-      <ul className={styles.skills__above}>
-        {above.map(e => {
-          return (
-            <li className={styles.skills__above__item} key={e.id}>
-              <div
-                className={styles.headLine}
-                style={{ backgroundColor: `${e.color}` }}
-              ></div>
-              <h1>{e.title}</h1>
-              <h3>{e.category1.category}</h3>
-              <h5>{e.category1.description}</h5>
-              <h3>{e.category2.category}</h3>
-              <h5>{e.category2.description}</h5>
-              <h3>{e.category3.category}</h3>
-              <h5>{e.category3.description}</h5>
-              <h3>{e.category4.category}</h3>
-              <h5>{e.category4.description} </h5>
-            </li>
-          );
-        })}
+      <ul className={styles.skills__top}>
+        <li className={styles.skills__top__item}>
+          <div
+            className={styles.headLine}
+            style={{ backgroundColor: '#61DBFB' }}
+          ></div>
+          <div className={styles.content}>
+            <h1>React</h1>
+            <h3>상태관리</h3>
+            <h3>구조설계</h3>
+            <h3>생명주기</h3>
+            <h3>최적화</h3>
+          </div>
+        </li>
       </ul>
-      <ul className={styles.skills__below}>
-        <li className={styles.skills__below__item}>HTML, CSS</li>
-        <li className={styles.skills__below__item}>자료구조</li>
-        <li className={styles.skills__below__item}>Network</li>
+      <ul className={styles.skills__middle}>
+        <li className={styles.skills__middle__item}>
+          <div
+            className={styles.headLine}
+            style={{ backgroundColor: '#F0DB4F' }}
+          ></div>
+          <div className={styles.content}>
+            <h1>Javascript</h1>
+            <h3>상태관리</h3>
+            <h3>구조설계</h3>
+            <h3>생명주기</h3>
+            <h3>최적화</h3>
+          </div>
+        </li>
+        <li className={styles.skills__middle__item2}>
+          <div
+            className={styles.headLine}
+            style={{ backgroundColor: '#007acc' }}
+          ></div>
+          <div className={styles.content}>
+            <h1>Typescript</h1>
+            <h3>상태관리</h3>
+            <h3>구조설계</h3>
+          </div>
+        </li>
+      </ul>
+      <ul className={styles.skills__bottom}>
+        <li className={styles.skills__bottom__item}>HTML, CSS</li>
+        <li className={styles.skills__bottom__item}>자료구조</li>
+        <li className={styles.skills__bottom__item}>Network</li>
+        <li className={styles.skills__bottom__item}>Network</li>
       </ul>
     </div>
   );

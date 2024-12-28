@@ -3,11 +3,11 @@
     {
       "title": "React",
       "category1": {
-        "category": "상태관리에 자신이 있습니다",
+        "category": "상태관리",
         "description": "Client State와 Server State를 이해하고 있습니다. Recoil와 React Query를 주로 사용합니다"
       },
       "category2": {
-        "category": "구조설계를 좋아합니다",
+        "category": "구조설계",
         "description": "구조 설계를 잘하면 프로젝트가 수월해지는 경험을 해봤고 그 중요성을 알고 있습니다. Component Composition을 늘 숙지하고 활용합니다"
       },
       "category3": {
@@ -24,23 +24,23 @@
     {
       "title": "Javascript",
       "category1": {
-        "category": "함수형 프로그램과 객체지향 프로그래밍",
-        "description": ""
+        "category": "Object literal과 배열",
+        "description": "Client State와 Server State를 이해하고 있습니다. Recoil와 React Query를 주로 사용합니다"
       },
       "category2": {
         "category": "비동기와 동기",
-        "description": "async await"
+        "description": "구조 설계를 잘하면 프로젝트가 수월해지는 경험을 해봤고 그 중요성을 알고 있습니다. Component Composition을 늘 숙지하고 활용합니다"
       },
       "category3": {
-        "category": "Promise",
-        "description": ""
+        "category": "함수형 프로그램과 객체지향 프로그래밍",
+        "description": "useEffect, useLayoutEffect 사용을 통한 컴포넌트 로드"
       },
       "category4": {
-        "category": "배열과 객체",
-        "description": "Literal 객체와 배열 가공"
+        "category": "Promise",
+        "description": "Memoization, Debounce, Throttle, useTransition, Suspense 사용"
       },
       "id": 2,
-      "color": "#f0db4f"
+      "color": "#F0DB4F"
     }
   ],
   "below": []

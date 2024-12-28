@@ -2,18 +2,14 @@
   display: flex;
   flex-direction: column;
 
-  flex: 3;
+  flex: 2;
   height: 100%;
-
-  padding: 10px;
-
-  border-radius: 5px;
 
   &__tags {
     display: flex;
     justify-content: space-around;
 
-    margin: 20px;
+    margin-bottom: 20px;
 
     &__item {
       padding: 5px 8px;
@@ -32,11 +28,16 @@
     img {
       width: 100%;
 
+      border-radius: 20px;
+
+      border: 1px solid #000;
+
       cursor: pointer;
     }
   }
 
   &__commentBox {
+    text-align: center;
     flex: 1;
 
     display: flex;

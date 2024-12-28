@@ -5,9 +5,9 @@ function Profile() {
   return (
     <div className={styles.profile}>
       <div className={styles.profile__tags}>
-        <p className={styles.profile__tags__item}>업무</p>
-        <p className={styles.profile__tags__item}>일상</p>
-        <p className={styles.profile__tags__item}>취미</p>
+        <p className={styles.profile__tags__item}>#업무</p>
+        <p className={styles.profile__tags__item}>#일상</p>
+        <p className={styles.profile__tags__item}>#취미</p>
       </div>
       <div className={styles.profile__imageBox}>
         <img src="src/assets/images/jw1.jpg" alt="img1" />
