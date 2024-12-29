@@ -52,8 +52,8 @@ function History() {
           onMouseEnter={() => handleMouseOver(2)}
         >
           <h2>2023.11 - 2024.02</h2>
-          <h3>낸드소프트 프로젝트 사업부</h3>
-          <h4>부산은행 사내 메일링 시스템 유지보수 업무</h4>
+          <h3>낸드소프트</h3>
+          <h4>부산은행 금융그룹 사내 계정 관리 솔루션 유지보수 업무</h4>
         </div>
         <div
           className={`${styles.container__job} ${
