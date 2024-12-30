@@ -13,5 +13,20 @@
 
     width: 100%;
     height: 100%;
+
+    &__button {
+      color: #4f4f4f;
+
+      transition: all 0.1s linear;
+
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+      }
+      &:focus {
+        color: #000;
+      }
+    }
   }
 }

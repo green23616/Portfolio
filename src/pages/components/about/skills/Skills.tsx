@@ -43,21 +43,34 @@ function Skills() {
         </li>
       </ul>
       <ul className={styles.skills__bottom}>
-        <li className={styles.skills__bottom__item}>
-          <h1>HTML, CSS</h1>
-          <h3>시맨틱 태그, SCSS</h3>
+        <li className={styles.skills__bottom__above}>
+          <div className={styles.item}>
+            <h1>HTML, CSS</h1>
+            <h3>
+              Atomic Design Pattern, Composition Component, Semantic, SCSS
+            </h3>
+          </div>
+          <div className={styles.item2}>
+            <h1>Figma</h1>
+          </div>
         </li>
-        <li className={styles.skills__bottom__item}>
-          <h1>자료구조</h1>
-          <h3>선형구조, Tree Node</h3>
-        </li>
-        <li className={styles.skills__bottom__item}>
-          <h1>데이터베이스</h1>
-          <h3>관계형, 비관계형, 쿼리</h3>
-        </li>
-        <li className={styles.skills__bottom__item}>
-          <h1>운영체제</h1>
-          <h3>Linux, Web</h3>
+        <li className={styles.skills__bottom__below}>
+          <div className={styles.item}>
+            <h1>자료구조</h1>
+            <h3>선형구조, Tree Node</h3>
+          </div>
+          <div className={styles.item}>
+            <h1>네트워크</h1>
+            <h3>OSI, TCP/IP, HTTPS</h3>
+          </div>
+          <div className={styles.item}>
+            <h1>운영체제</h1>
+            <h3>Linux, Web</h3>
+          </div>
+          <div className={styles.item2}>
+            <h1>알고리즘</h1>
+            <h3>2진 트리</h3>
+          </div>
         </li>
       </ul>
     </div>

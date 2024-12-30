@@ -37,13 +37,13 @@ function Nandsoft() {
             className={styles.container__toggle__btn1}
             onClick={handleClick}
           >
-            모두열기
+            열기
           </button>
           <button
             className={styles.container__toggle__btn2}
             onClick={handleClick6}
           >
-            전체닫기
+            닫기
           </button>
         </li>
         <li
