@@ -20,17 +20,6 @@
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
       border-radius: 5px;
 
-      cursor: pointer;
-
-      h1 {
-        font-weight: 700;
-        padding: 10px 0;
-      }
-
-      h3 {
-        padding: 5px 0;
-      }
-
       .headLine {
         width: 100%;
         height: 8px;
@@ -38,10 +27,41 @@
         border-radius: 5px;
       }
 
-      .content {
-        @include flex(space-between);
+      h1 {
+        font-weight: 700;
+        padding: 10px 0;
+      }
 
-        height: 100%;
+      .content {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        width: 100%;
+        height: 40px;
+
+        border-bottom: 1px solid #c7c7c7;
+
+        h3 {
+          width: 11%;
+          text-align: right;
+        }
+
+        &__item {
+          display: flex;
+
+          width: 100%;
+
+          h4 {
+            padding: 6px;
+            border-radius: 3px;
+
+            margin-left: 20px;
+
+            &:nth-child(4) {
+            }
+          }
+        }
       }
     }
   }
@@ -70,11 +90,7 @@
 
       h1 {
         font-weight: 700;
-        padding: 10px 0;
-      }
-
-      h3 {
-        padding: 5px 0;
+        padding: 10px 0 20px;
       }
 
       .headLine {
@@ -85,9 +101,29 @@
       }
 
       .content {
-        @include flex(space-between);
+        display: flex;
+        flex-direction: column;
 
-        height: 100%;
+        row-gap: 20px;
+
+        &__item {
+          display: flex;
+          justify-content: space-between;
+
+          width: 100%;
+        }
+        &__item1 {
+          display: flex;
+          justify-content: space-between;
+
+          width: 100%;
+        }
+        &__item2 {
+          display: flex;
+          justify-content: space-between;
+
+          width: 100%;
+        }
       }
     }
 
@@ -108,11 +144,7 @@
 
       h1 {
         font-weight: 700;
-        padding: 10px 0;
-      }
-
-      h3 {
-        padding: 5px 0;
+        padding: 10px 0 20px;
       }
 
       .headLine {
@@ -123,9 +155,9 @@
       }
 
       .content {
-        @include flex(space-between);
-
-        height: 100%;
+        h3 {
+          padding: 2px;
+        }
       }
     }
   }
@@ -139,8 +171,6 @@
 
     &__above {
       display: flex;
-      width: 100%;
-      height: 40%;
 
       gap: 20px;
 
@@ -157,21 +187,38 @@
 
         cursor: pointer;
 
-        h1 {
-          font-weight: 700;
-          font-size: 24px;
+        &__header {
+          @include flex(space-between);
 
-          padding: 10px 0;
+          h1 {
+            font-weight: 700;
+            font-size: 24px;
+
+            padding: 10px 0;
+          }
+
+          &__headLine {
+            width: 39%;
+            height: 8px;
+
+            border-radius: 5px;
+          }
         }
-        h3 {
-          font-size: 16px;
-          padding: 5px 0;
+
+        &__main {
+          display: flex;
+          justify-content: space-between;
+
+          p {
+            font-size: 16px;
+            padding: 5px 0;
+          }
         }
       }
       .item2 {
+        @include flex(center);
         flex: 1;
         height: 100%;
-        padding: 0 20px;
 
         border-radius: 5px;
 
@@ -180,14 +227,9 @@
         cursor: pointer;
 
         h1 {
-          font-weight: 700;
+          font-weight: bold;
           font-size: 24px;
           padding: 20px 0;
-        }
-
-        h3 {
-          font-size: 16px;
-          padding: 5px 0;
         }
       }
     }

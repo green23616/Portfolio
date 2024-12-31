@@ -1,4 +1,4 @@
-# Project - Photos
+# Project - Portfolio
 
 ## 개발환경
 

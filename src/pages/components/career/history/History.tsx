@@ -53,7 +53,10 @@ function History() {
         >
           <h2>2023.11 - 2024.02</h2>
           <h3>낸드소프트</h3>
-          <h4>부산은행 금융그룹 사내 계정 관리 솔루션 유지보수 업무</h4>
+          <h4>
+            부산은행 금융그룹 사내 계정
+            <br /> 관리 솔루션 유지보수 업무
+          </h4>
         </div>
         <div
           className={`${styles.container__job} ${
@@ -62,7 +65,7 @@ function History() {
           onMouseEnter={() => handleMouseOver(3)}
         >
           <h2>2024.08 - 2024.12</h2>
-          <h4>컴퓨터 공학 지식 학습</h4>
+          <h4>개발 지식 학습</h4>
         </div>
       </div>
     </div>

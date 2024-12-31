@@ -4,9 +4,13 @@
   text-align: center;
 
   width: 100%;
-  height: 64vh;
+  height: 68vh;
 
   background-color: #fff2ed;
+
+  h1{
+    font-weight: bold;
+  }
 
   &__tags {
     display: flex;

@@ -1,7 +1,7 @@
 // CSS
-import { historyState } from '../../../../../store/historyState';
 import styles from './MiniNav.module.scss';
 // Recoil
+import { historyState } from '../../../../../store/historyState';
 import { useRecoilState } from 'recoil';
 
 function MiniNav() {
@@ -20,8 +20,6 @@ function MiniNav() {
           }`}
           onMouseEnter={() => handleMouseOver(0)}
         >
-          <h2>2014</h2>
-          <h3>I</h3>
           <h2>2020</h2>
         </div>
         <div
@@ -30,9 +28,7 @@ function MiniNav() {
           }`}
           onMouseEnter={() => handleMouseOver(1)}
         >
-          <h2>2023.06</h2>
-          <h3>I</h3>
-          <h2>2024.11</h2>
+          <h2>2023</h2>
         </div>
         <div
           className={`${styles.container__job} ${
@@ -40,9 +36,7 @@ function MiniNav() {
           }`}
           onMouseEnter={() => handleMouseOver(2)}
         >
-          <h2>2023.11</h2>
-          <h3>I</h3>
-          <h2>2024.02</h2>
+          <h2>2024</h2>
         </div>
         <div
           className={`${styles.container__job} ${
@@ -50,9 +44,7 @@ function MiniNav() {
           }`}
           onMouseEnter={() => handleMouseOver(3)}
         >
-          <h2>2024.08</h2>
-          <h3>I</h3>
-          <h2>2024.12</h2>
+          <h2>2025</h2>
         </div>
       </div>
     </div>

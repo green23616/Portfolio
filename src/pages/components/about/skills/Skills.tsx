@@ -9,13 +9,49 @@ function Skills() {
             className={styles.headLine}
             style={{ backgroundColor: '#61DBFB' }}
           ></div>
+          <h1>React</h1>
           <div className={styles.content}>
-            <h1>React</h1>
             <h3>상태관리</h3>
+            <div className={styles.content__item}>
+              <h4>Recoil</h4>
+              <h4>Zustand</h4>
+              <h4>Redux Toolkit</h4>
+              <h4>React Query v5</h4>
+            </div>
+          </div>
+          <div className={styles.content}>
             <h3>구조설계</h3>
+            <div className={styles.content__item}>
+              <h4>Composition Component</h4>
+              <h4>폴더 구조</h4>
+              <h4>컴포넌트 설계</h4>
+            </div>
+          </div>
+          <div className={styles.content}>
             <h3>생명주기</h3>
+            <div className={styles.content__item}>
+              <h4>useEffect</h4>
+              <h4>Render Trigger</h4>
+              <h4>Side Effects</h4>
+            </div>
+          </div>
+          <div className={styles.content}>
             <h3>최적화</h3>
-            <h3>통신</h3>
+            <div className={styles.content__item}>
+              <h4>Memoization</h4>
+              <h4>Throttle</h4>
+              <h4>Debounce</h4>
+              <h4>Lazy Loading</h4>
+              <h4>Code Splitting</h4>
+            </div>
+          </div>
+          <div className={styles.content}>
+            <h3>API</h3>
+            <div className={styles.content__item}>
+              <h4>RESTful API</h4>
+              <h4>GraphQL</h4>
+              <h4>Promise</h4>
+            </div>
           </div>
         </li>
       </ul>
@@ -25,10 +61,22 @@ function Skills() {
             className={styles.headLine}
             style={{ backgroundColor: '#F0DB4F' }}
           ></div>
+          <h1>Javascript</h1>
           <div className={styles.content}>
-            <h1>Javascript</h1>
-            <h3>함수형 프로그래밍</h3>
-            <h3>객체지향</h3>
+            <div className={styles.content__item}>
+              <h3>함수형과 객체지향 프로그래밍</h3>
+              <h3>Destructuring</h3>
+            </div>
+            <div className={styles.content__item1}>
+              <h3>DOM 조작</h3>
+              <h3>Module화</h3>
+              <h3>동기와 비동기</h3>
+            </div>
+            <div className={styles.content__item2}>
+              <h3>eventHandling</h3>
+              <h3>Closure</h3>
+              <h3>ES6</h3>
+            </div>
           </div>
         </li>
         <li className={styles.skills__middle__item2}>
@@ -36,19 +84,38 @@ function Skills() {
             className={styles.headLine}
             style={{ backgroundColor: '#007acc' }}
           ></div>
+          <h1>Typescript</h1>
           <div className={styles.content}>
-            <h1>Typescript</h1>
-            <h3>Narrowing</h3>
+            <div className={styles.content__item}>
+              <h3>Assertion과 Narrowing</h3>
+              <h3>Type Alias과 Static Type</h3>
+              <h3>Generics</h3>
+              <h3>Interface</h3>
+            </div>
           </div>
         </li>
       </ul>
       <ul className={styles.skills__bottom}>
         <li className={styles.skills__bottom__above}>
           <div className={styles.item}>
-            <h1>HTML, CSS</h1>
-            <h3>
-              Atomic Design Pattern, Composition Component, Semantic, SCSS
-            </h3>
+            <div className={styles.item__header}>
+              <h1>HTML CSS</h1>
+              <div
+                className={styles.item__header__headLine}
+                style={{ backgroundColor: '#e34c26' }}
+              ></div>
+              <div
+                className={styles.item__header__headLine}
+                style={{ backgroundColor: '#264de4' }}
+              ></div>
+            </div>
+            <div className={styles.item__main}>
+              <p>Semantic</p>
+              <p>SEO</p>
+              <p>SCSS</p>
+              <p>TailwindCSS</p>
+              <p>반응형 웹</p>
+            </div>
           </div>
           <div className={styles.item2}>
             <h1>Figma</h1>
@@ -57,19 +124,15 @@ function Skills() {
         <li className={styles.skills__bottom__below}>
           <div className={styles.item}>
             <h1>자료구조</h1>
-            <h3>선형구조, Tree Node</h3>
           </div>
           <div className={styles.item}>
             <h1>네트워크</h1>
-            <h3>OSI, TCP/IP, HTTPS</h3>
           </div>
           <div className={styles.item}>
             <h1>운영체제</h1>
-            <h3>Linux, Web</h3>
           </div>
           <div className={styles.item2}>
             <h1>알고리즘</h1>
-            <h3>2진 트리</h3>
           </div>
         </li>
       </ul>

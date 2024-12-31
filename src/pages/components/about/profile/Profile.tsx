@@ -1,16 +1,40 @@
+import { useState } from 'react';
 // CSS
 import styles from './Profile.module.scss';
 
 function Profile() {
+  const [imageNumber, setImageNumber] = useState(0);
+  const handleClick = (number: number) => {
+    setImageNumber(number);
+  };
+
   return (
     <div className={styles.profile}>
-      <div className={styles.profile__imageBox}>
-        <img src="src/assets/images/jw1.jpg" alt="img1" />
+      <div className={styles.profile__imageBox} onClick={() => handleClick(0)}>
+        <img
+          src={`src/assets/images/jw${imageNumber}.jpg`}
+          alt={`img${imageNumber}`}
+        />
       </div>
       <div className={styles.profile__tags}>
-        <p className={styles.profile__tags__item}>#업무</p>
-        <p className={styles.profile__tags__item}>#일상</p>
-        <p className={styles.profile__tags__item}>#취미</p>
+        <p
+          className={styles.profile__tags__item}
+          onClick={() => handleClick(1)}
+        >
+          #업무
+        </p>
+        <p
+          className={styles.profile__tags__item}
+          onClick={() => handleClick(2)}
+        >
+          #일상
+        </p>
+        <p
+          className={styles.profile__tags__item}
+          onClick={() => handleClick(3)}
+        >
+          #취미
+        </p>
       </div>
       <div className={styles.profile__commentBox}>
         <h1>
