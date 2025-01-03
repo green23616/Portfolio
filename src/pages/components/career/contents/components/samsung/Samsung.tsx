@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styles from './Samsung.module.scss';
 
 function Samsung() {
-  const [imageSrc, setImageSrc] = useState('/src/assets/images/samsung/1.jpg');
+  const [imageSrc, setImageSrc] = useState('./images/samsung/1.jpg');
 
   const handleMouseOver = (src: string) => {
     setImageSrc(src);
@@ -16,7 +16,7 @@ function Samsung() {
           <li
             className={styles.item}
             onMouseOver={() =>
-              handleMouseOver('/src/assets/images/samsung/1.jpg')
+              handleMouseOver('./images/samsung/1.jpg')
             }
           >
             <img src={imageSrc} alt="mainImage" />
@@ -26,18 +26,18 @@ function Samsung() {
           <li
             className={styles.item}
             onMouseOver={() =>
-              handleMouseOver('/src/assets/images/samsung/0.jpg')
+              handleMouseOver('./images/samsung/0.jpg')
             }
           >
-            <img src="/src/assets/images/samsung/0.jpg" alt="image0" />
+            <img src="./images/samsung/0.jpg" alt="image0" />
           </li>
           <li
             className={styles.item}
             onMouseOver={() =>
-              handleMouseOver('/src/assets/images/samsung/2.jpg')
+              handleMouseOver('./images/samsung/2.jpg')
             }
           >
-            <img src="/src/assets/images/samsung/2.jpg" alt="image2" />
+            <img src="./images/samsung/2.jpg" alt="image2" />
           </li>
         </ul>
       </div>

@@ -5,7 +5,7 @@ function Item() {
   return (
     <div className={styles.item}>
       <div className={styles.item__contents}>
-        <img src="./src/assets/images/works/photos.png" alt="github" />
+        <img src="./images/works/photos.png" alt="github" />
       </div>
     </div>
   );

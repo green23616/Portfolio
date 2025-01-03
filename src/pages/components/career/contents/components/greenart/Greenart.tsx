@@ -17,12 +17,12 @@ function Greenart() {
           </h3>
         </div>
         <div className={styles.greenart__above__imageBox}>
-          <img src="/src/assets/images/greenart/img0.jpg" alt="img0" />
+          <img src="./images/greenart/img0.jpg" alt="img0" />
         </div>
       </div>
       <div className={styles.greenart__below}>
         <div className={styles.greenart__below__imageBox}>
-          <img src="/src/assets/images/greenart/img2.jpg" alt="img2" />
+          <img src="./images/greenart/img2.jpg" alt="img2" />
         </div>
         <div className={styles.greenart__below__text}>
           <h1>팀 프로젝트를 통한 협동 경험</h1>

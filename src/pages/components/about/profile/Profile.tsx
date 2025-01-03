@@ -12,7 +12,7 @@ function Profile() {
     <div className={styles.profile}>
       <div className={styles.profile__imageBox}>
         <img
-          src={`src/assets/images/profile/jw${imageNumber}.jpg`}
+          src={`./images/profile/jw${imageNumber}.jpg`}
           alt={`img${imageNumber}`}
         />
       </div>

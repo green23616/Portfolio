@@ -8,7 +8,7 @@ function Header() {
           <li className={styles.container__ul__left}>
             <a href="https://github.com/green23616" target="_blank">
               <img
-                src="./src/assets/images/header/github.png"
+                src="./images/header/github.png"
                 alt="github_logo"
               />
             </a>
