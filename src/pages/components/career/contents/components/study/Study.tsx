@@ -2,63 +2,20 @@
 import styles from './Study.module.scss';
 
 function Study() {
-  // const [imageNumber, setImageNumber] = useState(0);
-
-  // const handlePrev = () => {
-  //   if (imageNumber > 0) {
-  //     setImageNumber(prev => prev - 1);
-  //   } else {
-  //     setImageNumber(4);
-  //   }
-  // };
-
-  // const handleNext = () => {
-  //   if (imageNumber < 4) {
-  //     setImageNumber(prev => prev + 1);
-  //   } else {
-  //     setImageNumber(0);
-  //   }
-  // };
-
   return (
     <div className={styles.study}>
       <div className={styles.container}>
-        {/* <div className={styles.container__item}>
-          <div className={styles.container__item__imgCarousel}>
-            <img
-              src={`./src/assets/images/${imageNumber}.png`}
-              alt={`img${imageNumber}`}
-            />
-            <div className={styles.control}>
-              <button
-                className={`${'material-symbols-outlined'} ${
-                  styles.control__icon
-                }`}
-                onClick={handlePrev}
-              >
-                arrow_back
-              </button>
-              <button
-                className={`${'material-symbols-outlined'} ${
-                  styles.control__icon
-                }`}
-                onClick={handleNext}
-              >
-                arrow_forward
-              </button>
-            </div>
-          </div>
-        </div> */}
         <div className={styles.container__text}>
           <h2>어떤 요구사항도 구현할 수 있는 개발자를 목표로</h2>
           <h3>프레임워크 이해</h3>
           <h4>
             React를 보일러 플레이트 없이 Compiler, Transpiler부터 세팅해보는
-            과정을 통해 기본적인 구동 원리를 이해하고 State를 뜯어보며 기초부터
-            공부했습니다.<br/> 함수형 컴포넌트와 props의 방향을 이해하고 이벤트 처리
-            방법 및 과정에서 함수와 컴포넌트를 최적화하는 기법들을 실제
-            프로젝트에 도입해보았으며, Client와 Server 양측에서 State
-            Management를 해보고 통합 구현한 경험이 있습니다.
+            과정과 useState를 직접 뜯어보는 등 기본 원리부터 알아가는 것이
+            중요하다고 생각하며 학습했습니다.
+            <br /> 함수형 컴포넌트와 props의 방향을 이해하고 이벤트 처리 방법 및
+            과정에서 함수와 컴포넌트를 최적화하는 기법들을 실제 프로젝트에
+            도입해보았으며, Client와 Server 양측에서 State Management를 해보고
+            통합 구현한 경험이 있습니다.
           </h4>
           <h3>Javascript 학습</h3>
           <h4>
@@ -108,7 +65,8 @@ function Study() {
           <h3>디버깅</h3>
           <h4>
             React DevTools, React Query DevTools 등을 이용한 디버깅 경험이
-            있습니다.<br/> State 추적과 프로파일러, console.time() 등을 사용해 렌더링
+            있습니다.
+            <br /> State 추적과 프로파일러, console.time() 등을 사용해 렌더링
             속도를 측정하고 개선한 경험이 있습니다.
           </h4>
         </div>
