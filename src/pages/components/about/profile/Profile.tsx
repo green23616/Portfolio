@@ -10,30 +10,30 @@ function Profile() {
 
   return (
     <div className={styles.profile}>
-      <div className={styles.profile__imageBox} onClick={() => handleClick(0)}>
+      <div className={styles.profile__imageBox}>
         <img
-          src={`src/assets/images/jw${imageNumber}.jpg`}
+          src={`src/assets/images/profile/jw${imageNumber}.jpg`}
           alt={`img${imageNumber}`}
         />
       </div>
       <div className={styles.profile__tags}>
         <p
           className={styles.profile__tags__item}
-          onClick={() => handleClick(1)}
+          onClick={() => handleClick(0)}
         >
-          #업무
+          #계획형
         </p>
         <p
           className={styles.profile__tags__item}
-          onClick={() => handleClick(2)}
+          onClick={() => handleClick(0)}
         >
-          #일상
+          #즐겁게
         </p>
         <p
           className={styles.profile__tags__item}
-          onClick={() => handleClick(3)}
+          onClick={() => handleClick(0)}
         >
-          #취미
+          #스스로
         </p>
       </div>
       <div className={styles.profile__commentBox}>
@@ -53,7 +53,7 @@ function Profile() {
           <br /> 갖추고 싶습니다
         </h3>
         <h3>
-          소중한 동료와 웃으며
+          동료와 웃으며 즐겁게
           <br /> 일하고 싶습니다
         </h3>
       </div>

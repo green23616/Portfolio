@@ -23,8 +23,7 @@ function Skills() {
             <h3>구조설계</h3>
             <div className={styles.content__item}>
               <h4>Composition Component</h4>
-              <h4>폴더 구조</h4>
-              <h4>컴포넌트 설계</h4>
+              <h4>디자인 패턴</h4>
             </div>
           </div>
           <div className={styles.content}>
@@ -50,7 +49,6 @@ function Skills() {
             <div className={styles.content__item}>
               <h4>RESTful API</h4>
               <h4>GraphQL</h4>
-              <h4>Promise</h4>
             </div>
           </div>
         </li>
@@ -65,15 +63,15 @@ function Skills() {
           <div className={styles.content}>
             <div className={styles.content__item}>
               <h3>함수형과 객체지향 프로그래밍</h3>
-              <h3>Destructuring</h3>
+              <h3>Promise와 콜백</h3>
             </div>
             <div className={styles.content__item1}>
               <h3>DOM 조작</h3>
-              <h3>Module화</h3>
-              <h3>동기와 비동기</h3>
+              <h3>Module</h3>
+              <h3>배열과 객체</h3>
             </div>
             <div className={styles.content__item2}>
-              <h3>eventHandling</h3>
+              <h3>이벤트 핸들링</h3>
               <h3>Closure</h3>
               <h3>ES6</h3>
             </div>
@@ -87,10 +85,9 @@ function Skills() {
           <h1>Typescript</h1>
           <div className={styles.content}>
             <div className={styles.content__item}>
-              <h3>Assertion과 Narrowing</h3>
-              <h3>Type Alias과 Static Type</h3>
-              <h3>Generics</h3>
-              <h3>Interface</h3>
+              <h3>Narrowing</h3>
+              <h3>Type Inference & Type Guard</h3>
+              <h3>Generics & Interface</h3>
             </div>
           </div>
         </li>

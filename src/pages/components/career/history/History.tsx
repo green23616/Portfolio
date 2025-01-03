@@ -11,15 +11,6 @@ function History() {
     setStyleVal(number);
   };
 
-  // useEffect(() => {
-  //   const setTimer = setTimeout(() => {
-  //     setStyleVal(prev => (prev > 2 ? 0 : prev + 1));
-  //   }, 2000);
-  //   return () => {
-  //     clearTimeout(setTimer);
-  //   };
-  // }, [styleVal, setStyleVal]);
-
   return (
     <div className={styles.history}>
       <div className={styles.container}>
@@ -41,7 +32,7 @@ function History() {
           }`}
           onMouseEnter={() => handleMouseOver(1)}
         >
-          <h2>2023.06 - 11</h2>
+          <h2>2023.06 - 2023.11</h2>
           <h3>그린아트 아카데미</h3>
           <h4>React를 활용한 프론트엔드 교육과정</h4>
         </div>
@@ -64,8 +55,8 @@ function History() {
           }`}
           onMouseEnter={() => handleMouseOver(3)}
         >
-          <h2>2024.08 - 2024.12</h2>
-          <h4>개발 지식 학습</h4>
+          <h2>2024.08- 2024.12</h2>
+          <h3>개발 지식 학습</h3>
         </div>
       </div>
     </div>
