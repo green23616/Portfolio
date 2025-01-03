@@ -7,10 +7,10 @@ function Header() {
         <ul className={styles.container__ul}>
           <li className={styles.container__ul__left}>
             <a href="https://github.com/green23616" target="_blank">
-              <img
-                src="./images/header/github.png"
-                alt="github_logo"
-              />
+              <img src="./images/header/github.png" alt="github_logo" />
+            </a>
+            <a href="https://github.com/green23616" target="_blank">
+              GitHub
             </a>
           </li>
           <li className={styles.container__ul__right}>
