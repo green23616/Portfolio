@@ -27,8 +27,9 @@ function Study() {
           </h4>
           <h3>Typescript 도입</h3>
           <h4>
-            기본 타입과 배열, 튜플을 사용할 수 있으며 Generic, Interface, Type
-            Inference, Type Guard를 프로젝트에 사용하고 활용할 수 있습니다.
+            기본 타입과 Object literal, 튜플타입 등을 사용할 수 있으며 Generic,
+            Interface, Type Inference, Type Guard를 프로젝트에 사용하고 활용할
+            수 있습니다.
           </h4>
           <h3>기초 공학 지식 학습</h3>
           <h4>
@@ -52,8 +53,8 @@ function Study() {
           </h4>
           <h3>디자인 패턴</h3>
           <h4>
-            OODP 패턴들을 학습하며 객체 지향 프로그래밍 이해도를 높이고
-            React에서 Custom Hook을 통해 캡슐화를 해보았습니다.
+            OODP 패턴 학습을 통해 객체 지향적 해결책에 대한 이해도를 높였고
+            Javascript와 React에서 적용할 수 있는 패턴을 생각하며 학습했습니다.
           </h4>
           <h3>버전 관리</h3>
           <h4>
@@ -66,8 +67,8 @@ function Study() {
           <h4>
             React DevTools, React Query DevTools 등을 이용한 디버깅 경험이
             있습니다.
-            <br /> State 추적과 프로파일러, console.time() 등을 사용해 렌더링
-            속도를 측정하고 개선한 경험이 있습니다.
+            <br /> State를 추적하고 Profiler, console.time()/ End() 등을 사용해
+            렌더링 속도를 측정하고 개선한 경험이 있습니다.
           </h4>
         </div>
       </div>

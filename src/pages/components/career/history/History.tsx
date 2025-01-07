@@ -24,7 +24,7 @@ function History() {
           <h3>삼성전자 서비스</h3>
           <h4>유통, 판매 및 서비스 업무</h4>
           <h3>ABC마트</h3>
-          <h4>세일즈 마케터 부매니저 업무</h4>
+          <h4>세일즈 마케터 업무</h4>
         </div>
         <div
           className={`${styles.container__job} ${

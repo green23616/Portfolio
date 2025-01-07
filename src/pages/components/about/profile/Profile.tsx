@@ -33,7 +33,7 @@ function Profile() {
           className={styles.profile__tags__item}
           onClick={() => handleClick(0)}
         >
-          #스스로
+          #주도적
         </p>
       </div>
       <div className={styles.profile__commentBox}>
