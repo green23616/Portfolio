@@ -65,8 +65,8 @@ function Nandsoft() {
             </h3>
             <h2>개발 성과</h2>
             <h3>
-              float로 개발되어 있던 로그인 UI와 나의 메일 기능 UI를 flex-box를
-              로 리팩토링 한 경험이 있습니다.
+              float로 개발되어 있던 로그인 UI와 나의 메일 기능 UI를 flex-box로
+              리팩토링 한 경험이 있습니다.
             </h3>
             <h2>개발 교육</h2>
             <h3>Java, Network, Database, Linux 기초 지식을 학습했습니다.</h3>
