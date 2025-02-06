@@ -16,22 +16,24 @@ function Skills() {
               <h4>Recoil</h4>
               <h4>Zustand</h4>
               <h4>Redux Toolkit</h4>
-              <h4>React Query v5</h4>
+              <h4>React Query</h4>
             </div>
           </div>
           <div className={styles.content}>
             <h3>구조설계</h3>
             <div className={styles.content__item}>
-              <h4>Composition Component</h4>
-              <h4>디자인 패턴</h4>
+              <h4>디자인패턴</h4>
+              <h4>함수형 프로그래밍</h4>
+              <h4>객체지향 프로그래밍</h4>
             </div>
           </div>
           <div className={styles.content}>
             <h3>생명주기</h3>
             <div className={styles.content__item}>
               <h4>useEffect</h4>
-              <h4>Render Trigger</h4>
-              <h4>Side Effects</h4>
+              <h4>Mounting</h4>
+              <h4>Updating</h4>
+              <h4>Unmounting</h4>
             </div>
           </div>
           <div className={styles.content}>
@@ -47,7 +49,7 @@ function Skills() {
           <div className={styles.content}>
             <h3>API</h3>
             <div className={styles.content__item}>
-              <h4>RESTful API</h4>
+              <h4>RESTful</h4>
               <h4>GraphQL</h4>
             </div>
           </div>
@@ -62,18 +64,21 @@ function Skills() {
           <h1>Javascript</h1>
           <div className={styles.content}>
             <div className={styles.content__item}>
-              <h3>함수형과 객체지향 프로그래밍</h3>
-              <h3>Promise와 콜백</h3>
+              <h3>Event Loop</h3>
+              <h3>Closure</h3>
+              <h3>Promise</h3>
+              <h3>async/await</h3>
             </div>
             <div className={styles.content__item1}>
-              <h3>DOM 조작</h3>
-              <h3>Module</h3>
-              <h3>배열과 객체</h3>
+              <h3>객체지향 프로그래밍</h3>
+              <h3>Class, Prototype, This</h3>
+              <h3>디자인패턴</h3>
             </div>
             <div className={styles.content__item2}>
-              <h3>이벤트 핸들링</h3>
-              <h3>Closure</h3>
-              <h3>ES6</h3>
+              <h3>DOM</h3>
+              <h3>Object</h3>
+              <h3>조건문과 반복문</h3>
+              <h3>ES6+</h3>
             </div>
           </div>
         </li>
@@ -85,9 +90,9 @@ function Skills() {
           <h1>Typescript</h1>
           <div className={styles.content}>
             <div className={styles.content__item}>
-              <h3>Narrowing</h3>
-              <h3>Type Inference & Type Guard</h3>
-              <h3>Generics & Interface</h3>
+              <h3>Type Aliases & Interface</h3>
+              <h3>Type Assertion & Type Guard</h3>
+              <h3>Generics</h3>
             </div>
           </div>
         </li>

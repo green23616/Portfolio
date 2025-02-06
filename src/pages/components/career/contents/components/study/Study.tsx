@@ -6,60 +6,61 @@ function Study() {
     <div className={styles.study}>
       <div className={styles.container}>
         <div className={styles.container__text}>
-          <h2>어떤 요구사항도 구현할 수 있는 개발자를 목표로</h2>
-          <h3>프레임워크 이해</h3>
+          <h2>
+            기술에 대한 이해와 꾸준한 모습으로 동료에게 신뢰를 줄 수 있는 개발자
+          </h2>
+          <h3>React</h3>
           <h4>
-            React를 보일러 플레이트 없이 Compiler, Transpiler부터 세팅해보는
-            과정과 useState를 직접 뜯어보는 등 기본 원리부터 알아가는 것이
-            중요하다고 생각하며 학습했습니다.
-            <br /> 함수형 컴포넌트와 props의 방향을 이해하고 이벤트 처리 방법 및
-            과정에서 함수와 컴포넌트를 최적화하는 기법들을 실제 프로젝트에
-            도입해보았으며, Client와 Server 양측에서 State Management를 해보고
-            통합 구현한 경험이 있습니다.
+            React를 보일러 플레이트 없이 Compiler, Transpiler부터 세팅해 보았고
+            hook 내부를 분석하며 기초부터 학습하고자 했습니다. 최신 React에서
+            지향하는 함수형 프로그래밍 학습을 중심으로, 초-중기 Class 문법 코드
+            이해를 위해 객체지향 프로그래밍 학습을 병행했습니다. 컴포넌트를
+            최적화하는 기법들을 실제 프로젝트에 도입해 보았으며, Client와 Server
+            양측에서 State Management를 해보았고, 또 통합해 구현해 보았습니다.
           </h4>
-          <h3>Javascript 학습</h3>
+          <h3>Javascript</h3>
           <h4>
-            자료형과 함수, 객체와 배열, 연산자, 타입, 조건문과 반복문, DOM 조작,
-            Promise와 async/await, 브라우저 API 등 기초적인 개념들과
-            Constructor와 Prototype, Closure, ES6+ 문법 등 심화 개념들을
-            학습하였고 React에 어떤 Javascript 기술들이 활용되고 있는지 이해하고
-            있습니다.
+            자료형, DOM, 객체와 배열, 연산자, 조건문과 반복문 등 기초적인
+            개념부터 Event Loop와 Closure, Scope, Promise와 async/await 등 심화
+            개념들을 학습하였고 React에 어떤 Javascript 기술들이 활용되고 있는지
+            이해하고자 노력했습니다.
           </h4>
-          <h3>Typescript 도입</h3>
+          <h3>Typescript</h3>
           <h4>
-            기본 타입과 Object literal, 튜플타입 등을 사용할 수 있으며 Generic,
-            Interface, Type Inference, Type Guard를 프로젝트에 사용하고 활용할
-            수 있습니다.
+            기본 타입과 Type Aliases, Interface, Generic, Type Inference, Type
+            Guard 등을 프로젝트에서 활용할 수 있습니다.
           </h4>
-          <h3>기초 공학 지식 학습</h3>
+          <h3>컴퓨터 공학 지식</h3>
           <h4>
-            자료구조: 스택, 큐, 트리, 그래프, 해시 테이블 등 주요 자료구조의
-            원리를 이해하고 자바스크립트를 통해 구현해보았습니다.
+            자료구조: 연결리스트, 스택, 큐, 트리, 힙 등 기초적인 자료구조의
+            정의를 이해하고 시간복잡도 관점에서 학습하였습니다.
             <br />
-            네트워크: OSI 7계층의 구조와 각 계층의 역할을 이해하고 있으며 TCP/IP
-            프로토콜의 기본 동작 원리와 전체적인 데이터 흐름을 설명할 수
-            있습니다.
+            알고리즘: DFS, BFS를 학습했습니다.
             <br />
-            운영체제: 프로세스와 스레드의 차이를 설명할 수 있으며 메모리 분할
-            방식과 페이징 기법을 설명할 수 있습니다.
+            네트워크: OSI 7계층의 구성과 각 계층의 역할을 이해하고 있으며,
+            TCP/IP Packet이 생성되고 Frame으로 변환되어 전송되는 전체적인 흐름을
+            설명할 수 있습니다.
             <br />
-            알고리즘: 재귀 호출, 힙 정렬, DFS, BFS, 순회 등 기초적인 알고리즘을
-            학습하였습니다.
-          </h4>
-          <h3>RESTful API와 GraphQL 설계</h3>
-          <h4>
-            REST 원칙에 입각해 API를 호출하고 데이터를 사용해 본 경험이 있으며
-            GraphQL을 통해서도 CRUD 예제를 만들어 본 경험이 있습니다.
+            운영체제: 메모리 공간 구조를 설명할 수 있고, 프로세스와 스레드의
+            차이를 이해하고 있습니다.
+            <br />
           </h4>
           <h3>디자인 패턴</h3>
           <h4>
-            OODP 패턴 학습을 통해 객체 지향적 해결책에 대한 이해도를 높였고
-            Javascript와 React에서 적용할 수 있는 패턴을 생각하며 학습했습니다.
+            React 개발에서 실무적으로 사용되는 패턴을 우선적으로 학습했으며,
+            Class 문법이 초기 버전 React에서 사용되었던 만큼 객체지향 디자인
+            패턴도 학습해 React 동작 원리를 이해하려고 했습니다.
+          </h4>
+          <h3>RESTful API와 GraphQL</h3>
+          <h4>
+            REST 원칙을 설명할 수 있으며, RESTful API와 GraphQL 모두를 이용해
+            CRUD를 구현해 본 경험이 있습니다.
           </h4>
           <h3>버전 관리</h3>
           <h4>
-            git branch를 나누어 기능별로 개발을 진행해보았고 대용량 파일
-            업로드를 위해 git-lfs를 사용해 보았습니다. <br />
+            기능 추가, 버그 수정 등으로 git branch를 나누어 개발을 해보았고,
+            대용량 파일 업로드를 위해 git-lfs를 사용해 보았습니다.
+            <br />
             GitLab과 TortoiseSVN을 사내 형상 관리 도구로 사용해 본 경험이
             있습니다.
           </h4>
@@ -68,7 +69,7 @@ function Study() {
             React DevTools, React Query DevTools 등을 이용한 디버깅 경험이
             있습니다.
             <br /> State를 추적하고 Profiler, console.time()/ End() 등을 사용해
-            렌더링 속도를 측정하고 개선한 경험이 있습니다.
+            렌더링 속도를 측정하고 개선해 보았습니다.
           </h4>
         </div>
       </div>

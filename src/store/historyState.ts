@@ -2,5 +2,5 @@ import { atom } from 'recoil';
 
 export const historyState = atom({
   key: 'historyState',
-  default: 0,
+  default: 3,
 });
